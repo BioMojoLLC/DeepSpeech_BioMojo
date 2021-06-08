@@ -1,0 +1,30 @@
+wav_filename,wav_filesize,transcript
+Eggs.wav,89804,tell me about your eczema
+HiAlan.wav,101278,hi alan my name is wesley pretsch
+ObtainPermission.wav,173930,is it alright if we talk in this non clinical setting
+Religious.wav,135198,do you have any religious or spiritual affiliations
+TalkAboutIBS.wav,88844,tell me about your ibs
+ProbsWithIBS.wav,80664,what problems have you been having with your ibs
+EczemaFlareUps.wav,73976,please describe you eczema flare ups
+Life.wav,138718,how has eczema affected your life
+Eczema.wav,66764,eczema
+Metals.wav,121438,certain metals can cause eczema to develop
+DiscussMetals.wav,114718,discuss metals as an eczema trigger
+Topical.wav,117324,have you considered using topical creams for eczema
+Prescription.wav,130398,lets talk about possibly using prescriptions for your eczema
+ManageEczema.wav,86284,how do you manage your eczema
+WhatManage.wav,86878,what do you do to manage your eczema
+WorkEffect.wav,134558,how has work afftected your eczema and ibs
+SetIBS.wav,87884,what sets off your ibs
+Instigate.wav,104524,what instigates your ibs
+Foods.wav,109004,do you know of any food that triggers ibs
+Common.wav,100684,some common foods can trigger ibs
+IBSSymptoms.wav,111518,please describe some of your ibs symptoms
+Episode.wav,131690,can you tell me about an ibs episode you have had
+IBSEffect.wav,90764,how has ibs affected your life
+DiscussIBS.wav,122078,lets talk about how ibs has affected your quality of life
+ShelterFood.wav,110878,how does the shelter food affect your ibs
+TreatIBS.wav,102238,lets look at some treatment options for ibs
+IBSPrescription.wav,89758,have your considered prescriptions for ibs
+DietGuide.wav,112158,discuss dietary guidelines for ibs
+WhatHelps.wav,83038,what will help your ibs
