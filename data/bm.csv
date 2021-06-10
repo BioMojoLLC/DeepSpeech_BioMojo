@@ -1,30 +1,103 @@
 wav_filename,wav_filesize,transcript
-Eggs.wav,89804,tell me about your eczema
-HiAlan.wav,101278,hi alan my name is wesley pretsch
-ObtainPermission.wav,173930,is it alright if we talk in this non clinical setting
-Religious.wav,135198,do you have any religious or spiritual affiliations
-TalkAboutIBS.wav,88844,tell me about your ibs
-ProbsWithIBS.wav,80664,what problems have you been having with your ibs
-EczemaFlareUps.wav,73976,please describe you eczema flare ups
-Life.wav,138718,how has eczema affected your life
-Eczema.wav,66764,eczema
-Metals.wav,121438,certain metals can cause eczema to develop
+Commmon1.wav,727252,some common foods can trigger ibs
+Commmon2.wav,760532,some common foods can trigger ibs
+Commmon3.wav,706772,some common foods can trigger ibs
+Common.wav,100684,some common foods can trigger ibs
+DietGuide.wav,112158,discuss dietary guidelines for ibs
+DietGuide1.wav,722132,discuss dietary guidelines for ibs
+DietGuide2.wav,632936,discuss dietary guidelines for ibs
+DiscussIBS.wav,122078,lets talk about how ibs has affected your quality of life
+DiscussIBS1.wav,728788,lets talk about how ibs has affected your quality of life
+DiscussIBS2.wav,870612,lets talk about how ibs has affected your quality of life
+DiscussIBS3.wav,874196,lets talk about how ibs has affected your quality of life
 DiscussMetals.wav,114718,discuss metals as an eczema trigger
-Topical.wav,117324,have you considered using topical creams for eczema
-Prescription.wav,130398,lets talk about possibly using prescriptions for your eczema
+DisMetals1.wav,676052,discuss metals as an eczema trigger
+DisMetals2.wav,627412,discuss metals as an eczema trigger
+DisMetals3.wav,578772,discuss metals as an eczema trigger
+E1.wav,368792,eczema
+E2.wav,504472,eczema
+Eczema.wav,66764,please describe your eczema flare ups
+EczemaFlareUps.wav,73976,please describe your eczema flare ups
+EczemaFlareUps1.wav,676052,please describe your eczema flare ups
+EczemaFlareUps2.wav,627412,please describe your eczema flare ups
+Eggs.wav,89804,tell me about your eczema
+Eggs1.wav,507092,tell me about your eczema
+Eggs2.wav,391272,tell me about your eczema
+Eggs3.wav,494292,tell me about your eczema
+Episode.wav,131690,can you tell me about an ibs episode you have had
+Episode1.wav,781012,can you tell me about an ibs episode you have had
+Episode2.wav,960212,can you tell me about an ibs episode you have had
+Episode3.wav,724692,can you tell me about an ibs episode you have had
+Foods.wav,109004,do you know of any food that triggers ibs
+Foods1.wav,752852,do you know of any food that triggers ibs
+Foods2.wav,781012,do you know of any food that triggers ibs
+Foods3.wav,752852,do you know of any food that triggers ibs
+HiAlan.wav,101278,hi alan my name is wesley pretsch
+HiAlan1.wav,577640,hi alan my name is wesley pretsch
+HiAlan2.wav,601812,hi alan my name is wesley pretsch
+Hygiene.wav,58744,hi alan my name is wesley pretsch
+IBSEffect.wav,90764,how has ibs affected your life
+IBSEffect1.wav,706772,how has ibs affected your life
+IBSEffect2.wav,747732,how has ibs affected your life
+IBSEffect3.wav,781012,how has ibs affected your life
+IBSPrescription.wav,89758,have your considered prescriptions for ibs
+IBSPrescriptions1.wav,757972,have your considered prescriptions for ibs
+IBSPrescriptions2.wav,501864,have your considered prescriptions for ibs
+IBSPrescriptions3.wav,630888,have your considered prescriptions for ibs
+IBSSymptoms.wav,111518,please describe some of your ibs symptoms
+IBSSymptoms1.wav,742612,please describe some of your ibs symptoms
+IBSSymptoms2.wav,763092,please describe some of your ibs symptoms
+IBSSymptoms3.wav,661608,please describe some of your ibs symptoms
+Instigate.wav,104524,what instigates your ibs
+Instigate1.wav,650452,what instigates your ibs
+Instigate2.wav,573652,what instigates your ibs
+Instigate3.wav,632532,what instigates your ibs
+Life.wav,138718,how has eczema affected your life
+ManageE1.wav,647892,how do you manage your eczema
+ManageE2.wav,576212,how do you manage your eczema
+ManageE3.wav,594132,how do you manage your eczema
 ManageEczema.wav,86284,how do you manage your eczema
+ManageIBS.wav,70632,what do you do to manage your ibs
+Metals.wav,121438,certain metals can cause eczema to develop
+Metals1.wav,750292,certain metals can cause eczema to develop
+Metals2.wav,763092,certain metals can cause eczema to develop
+Metals3.wav,678612,certain metals can cause eczema to develop
+ObtainPermission.wav,173930,is it alright if we talk in this non clinical setting
+ObtainPermission1.wav,678612,is it alright if we talk in this non clinical setting
+ObtainPermission2.wav,610408,is it alright if we talk in this non clinical setting
+Perscriptions1.wav,682196,lets talk about possibly using prescriptions for your eczema
+Perscriptions2.wav,832212,lets talk about possibly using prescriptions for your eczema
+Perscriptions3.wav,775892,lets talk about possibly using prescriptions for your eczema
+Prescription.wav,130398,lets talk about possibly using prescriptions for your eczema
+ProbsWithIBS.wav,80664,what problems have you been having with your ibs
+Religious.wav,135198,do you have any religious or spiritual affiliations
+Religious1.wav,763092,do you have any religious or spiritual affiliations
+Religious2.wav,806612,do you have any religious or spiritual affiliations
+SetIBS.wav,87884,what sets off your ibs
+SetIBS1.wav,665812,what sets off your ibs
+SetIBS2.wav,599252,what sets off your ibs
+SetIBS3.wav,560852,what sets off your ibs
+ShelterFood.wav,110878,how does the shelter food affect your ibs
+ShelterFood1.wav,763092,how does the shelter food affect your ibs
+ShelterFood2.wav,696532,how does the shelter food affect your ibs
+ShelterFood3.wav,573544,how does the shelter food affect your ibs
+TalkAboutIBS.wav,88844,tell me about your ibs
+TalkAboutIBS1.wav,571092,tell me about your ibs
+TalkAboutIBS2.wav,452712,tell me about your ibs
+Topical.wav,117324,have you considered using topical creams for eczema
+Topical1.wav,691412,have you considered using topical creams for eczema
+Topical2.wav,781012,have you considered using topical creams for eczema
+Topical3.wav,678612,have you considered using topical creams for eczema
+TreatIBS.wav,102238,lets look at some treatment options for ibs
+TreatIBS1.wav,693972,lets look at some treatment options for ibs
+TreatIBS2.wav,663252,lets look at some treatment options for ibs
+TreatIBS3.wav,737492,lets look at some treatment options for ibs
+WhatHelps.wav,83038,what will help your ibs
+WhatHelps1.wav,467048,what will help your ibs
+WhatHelps2.wav,548052,what will help your ibs
+WhatHelps3.wav,563412,what will help your ibs
 WhatManage.wav,86878,what do you do to manage your eczema
 WorkEffect.wav,134558,how has work afftected your eczema and ibs
-SetIBS.wav,87884,what sets off your ibs
-Instigate.wav,104524,what instigates your ibs
-Foods.wav,109004,do you know of any food that triggers ibs
-Common.wav,100684,some common foods can trigger ibs
-IBSSymptoms.wav,111518,please describe some of your ibs symptoms
-Episode.wav,131690,can you tell me about an ibs episode you have had
-IBSEffect.wav,90764,how has ibs affected your life
-DiscussIBS.wav,122078,lets talk about how ibs has affected your quality of life
-ShelterFood.wav,110878,how does the shelter food affect your ibs
-TreatIBS.wav,102238,lets look at some treatment options for ibs
-IBSPrescription.wav,89758,have your considered prescriptions for ibs
-DietGuide.wav,112158,discuss dietary guidelines for ibs
-WhatHelps.wav,83038,what will help your ibs
+WorkEffect1.wav,791252,how has work afftected your eczema and ibs
+WorkEffect2.wav,829652,how has work afftected your eczema and ibs
+WorkEffect3.wav,745172,how has work afftected your eczema and ibs
