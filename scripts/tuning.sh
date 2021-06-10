@@ -30,7 +30,7 @@ python -u DeepSpeech.py --noearly_stop \
   --learning_rate 0.0005 --dropout_rate 0.05 \
   --scorer_path 'deepspeech-0.9.3-models.scorer' | tee /tmp/resume.log
 
-if ! grep "Loading best validating checkpoint from" ~/../tmp/resume.log; then
+if ! grep "Loading best validating checkpoint from" /tmp/resume.log; then
   echo "Did not resume training from checkpoint"
   exit 1
 else
