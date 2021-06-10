@@ -18,15 +18,15 @@ fi;
 # and when trying to run on multiple devices (like GPUs), this will break
 export CUDA_VISIBLE_DEVICES=0
 
-python3 -u DeepSpeech.py --noearly_stop \
+python -u DeepSpeech.py --noearly_stop \
   --train_files ${bm_csv} --train_batch_size 1 \
   --dev_files ${bm_csv} --dev_batch_size 1 \
   --test_files ${bm_csv} --test_batch_size 1 \
   --n_hidden 2048 --epochs 10 \
-  --max_to_keep 1 --save_checkpoint_dir '/fine_tuning_checkpoints' \
-  --load_checkpoint_dir '/load_checkpoints' \
+  --max_to_keep 1 --save_checkpoint_dir '/content/DeepSpeech/fine_tuning_checkpoints' \
+  --load_checkpoint_dir '/content/DeepSpeech/load_checkpoints' \
   --load_cudnn \
-  --export_dir '/exports' \
+  --export_dir '/content/DeepSpeech/exports' \
   --learning_rate 0.0005 --dropout_rate 0.05 \
   --scorer_path 'deepspeech-0.9.3-models.scorer' | tee /tmp/resume.log
 
