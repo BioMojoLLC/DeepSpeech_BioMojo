@@ -4,9 +4,9 @@ set -xe
 
 #bm_dir="./CommonVoice/cv-corpus-5.1-2020-06-22/en/clips"
 bm_dir="./data/bm_test"
-test_csv="${bm_dir}/test.csv"
-train_csv="${bm_dir}/train.csv"
-dev_csv="${bm_dir}/dev.csv"
+test_csv="${bm_dir}/general-test.csv"
+train_csv="${bm_dir}/general-train.csv"
+dev_csv="${bm_dir}/general-dev.csv"
 bm_csv="${bm_dir}/bm.csv"
 
 if [ ! -f DeepSpeech.py ]; then
