@@ -19,15 +19,15 @@ fi;
 export CUDA_VISIBLE_DEVICES=0
 
 python -u DeepSpeech.py --noearly_stop \
-  --train_files ${bm_csv} --train_batch_size 1 \
-  --dev_files ${bm_csv} --dev_batch_size 1 \
+  --train_files ${bm_csv} --train_batch_size 4 \
+  --dev_files ${bm_csv} --dev_batch_size 2 \
   --test_files ${bm_csv} --test_batch_size 1 \
   --n_hidden 2048 --epochs 10 \
   --max_to_keep 1 --save_checkpoint_dir 'fine_tuning_checkpoints' \
   --load_checkpoint_dir 'load_checkpoints' \
   --load_cudnn \
   --export_dir 'exports' \
-  --learning_rate 0.0005 --dropout_rate 0.05 \
+  --learning_rate 0.0005 --dropout_rate 0.38 \
   --scorer_path 'deepspeech-0.9.3-models.scorer' | tee /tmp/resume.log
 
 if ! grep "Loading best validating checkpoint from" /tmp/resume.log; then
