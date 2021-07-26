@@ -34,25 +34,32 @@ Usage:
 
 @author: Ryan Hurlbut
 """
-import re
+
 
 # CHANGE ME
+##########################
 source = 'medical'
 key_words = ['medical', 'or', 'other', 'interesting', 'words' ]
+##########################
+
+
+
+
+import re
 
 raw_text_file = f'raw-{source}.txt'
 
-# import text file
+# Import raw text
 with open(raw_text_file, newline='\n',errors='ignore') as file:
   lines = file.readlines()
 
-# Convert list to string
+# Convert list into string
 raw_txt = ''
 for line in lines:
     raw_txt = raw_txt+line
 raw_txt = re.sub('[\r\n[\]\(\)]','', raw_txt).lower()
 
-# Split by line 
+# Split string into a list of sentences
 raw_sentences = re.split('[.?!:]', raw_txt)
 
 # Filter out lines by key word
