@@ -36,12 +36,12 @@ Usage:
 """
 
 
+
 # CHANGE ME
 ##########################
 source = 'medical'
 key_words = ['medical', 'or', 'other', 'interesting', 'words' ]
 ##########################
-
 
 
 
@@ -59,7 +59,7 @@ for line in lines:
     raw_txt = raw_txt+line
 raw_txt = re.sub('[\r\n[\]\(\)]','', raw_txt).lower()
 
-# Split string into a list of sentences
+# Split long string into a list of sentences
 raw_sentences = re.split('[.?!:]', raw_txt)
 
 # Filter out lines by key word
@@ -73,9 +73,9 @@ filtered_sentences = list( filter( lambda x: filter_by_kwords(key_words, x), raw
 
 filtered_sentences = [line.strip( ', ') + '\n' for line in filtered_sentences]
 
-
 print("Found", len(filtered_sentences), "sentences with key words in" , raw_text_file)
-# save to file
+
+# Save to cleaned file
 out_file = f'cleaned-{source}.txt'
 print("Saving to", out_file)
 with open(out_file, 'w', newline='\n') as file:
