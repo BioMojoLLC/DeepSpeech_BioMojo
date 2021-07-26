@@ -69,7 +69,7 @@ filtered_sentences = [line.strip( ', ') + '\n' for line in filtered_sentences]
 
 print("Found", len(filtered_sentences), "sentences with key words in" , raw_text_file)
 # save to file
-out_file = f'cleaned-{source}-test.txt'
+out_file = f'cleaned-{source}.txt'
 print("Saving to", out_file)
 with open(out_file, 'w', newline='\n') as file:
     file.writelines(filtered_sentences)
