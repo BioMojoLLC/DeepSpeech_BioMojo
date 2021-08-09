@@ -39,8 +39,8 @@ Usage:
 
 # CHANGE ME
 ##########################
-source = 'medical'
-key_words = ['medical', 'or', 'other', 'interesting', 'words' ]
+source = 'io'
+key_words = ['io', 'osseous', 'intravenous' ]
 ##########################
 
 
